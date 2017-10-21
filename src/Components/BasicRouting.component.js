@@ -7,8 +7,9 @@ class Basic extends React.Component {
   render() {
     return (
       <div>
-        <button> GET DATA </button>
-
+          <div>-----------------------------</div>
+          <button><a href="https://mysafeinfo.com/api/data?list=presidents&format=json">Get data</a></button>
+          <div>-----------------------------</div>
         <button> Clear</button>
 
       </div>
